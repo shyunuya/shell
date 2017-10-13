@@ -11,7 +11,10 @@ error() {
   fi
 }
 
-trap 'error ${LINENO}' ERR 
+trap 'error ${LINENO}' ERR
+#useful option -> EXIT, DEBUG, ERR 
+
+
 
 ls -arlt
 
